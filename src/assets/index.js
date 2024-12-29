@@ -41,6 +41,7 @@ import globussoft from "./company/globussoft.png";
 import natours from "./projects/natours.png";
 import convohub from "./projects/convohub.png";
 import climate from "./projects/climate.png";
+import shop from "./projects/shop-sphere.png"
 
 export {
   logo,
@@ -78,4 +79,5 @@ export {
   natours,
   convohub,
   climate,
+  shop
 };

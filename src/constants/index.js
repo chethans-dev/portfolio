@@ -31,6 +31,7 @@ import {
   natours,
   convohub,
   climate,
+  shop,
 } from "../assets";
 
 export const navLinks = [
@@ -169,6 +170,35 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Shop Sphere",
+    description:
+      "💻 Developed a comprehensive e-commerce application, Shop Sphere, designed to deliver a seamless and intuitive shopping experience for users. This project incorporates robust features and scalable architecture, catering to both customers and administrators.",
+    tags: [
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: shop,
+    source_code_link: "https://github.com/chethans-dev/Shop-Sphere",
+  },
   {
     name: "Natours",
     description:
